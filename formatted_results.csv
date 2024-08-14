@@ -1,0 +1,385 @@
+Dataset,Model,Sampling,F1,AUC,Mean Minority Recall
+wine,Logistic Regression,No Sampling,0.980,0.761,0.015
+wine,Logistic Regression,SMOTE,0.854,0.770,0.671
+wine,Logistic Regression,ADASYN,0.856,0.770,0.671
+wine,Logistic Regression,Undersampling,0.812,0.766,0.732
+wine,Logistic Regression,Oversampling,0.849,0.775,0.704
+wine,Logistic Regression,Gamma,0.792,0.762,0.717
+wine,Random Forest,No Sampling,0.979,0.819,0.032
+wine,Random Forest,SMOTE,0.967,0.789,0.190
+wine,Random Forest,ADASYN,0.967,0.786,0.188
+wine,Random Forest,Undersampling,0.842,0.781,0.668
+wine,Random Forest,Oversampling,0.978,0.797,0.015
+wine,Random Forest,Gamma,0.971,0.748,0.047
+wine,SVM,No Sampling,0.980,0.631,0.000
+wine,SVM,SMOTE,0.855,0.768,0.654
+wine,SVM,ADASYN,0.849,0.767,0.671
+wine,SVM,Undersampling,0.828,0.768,0.715
+wine,SVM,Oversampling,0.845,0.773,0.686
+wine,SVM,Gamma,0.786,0.747,0.717
+wine,KNN,No Sampling,0.979,0.604,0.094
+wine,KNN,SMOTE,0.930,0.638,0.414
+wine,KNN,ADASYN,0.929,0.653,0.399
+wine,KNN,Undersampling,0.832,0.677,0.588
+wine,KNN,Oversampling,0.960,0.602,0.222
+wine,KNN,Gamma,0.910,0.561,0.240
+abalone,Logistic Regression,No Sampling,0.000,0.810,0.000
+abalone,Logistic Regression,SMOTE,0.358,0.827,0.865
+abalone,Logistic Regression,ADASYN,0.353,0.825,0.872
+abalone,Logistic Regression,Undersampling,0.356,0.811,0.809
+abalone,Logistic Regression,Oversampling,0.356,0.824,0.857
+abalone,Logistic Regression,Gamma,0.352,0.826,0.849
+abalone,Random Forest,No Sampling,0.163,0.838,0.107
+abalone,Random Forest,SMOTE,0.356,0.844,0.420
+abalone,Random Forest,ADASYN,0.356,0.840,0.417
+abalone,Random Forest,Undersampling,0.388,0.855,0.813
+abalone,Random Forest,Oversampling,0.266,0.840,0.230
+abalone,Random Forest,Gamma,0.345,0.844,0.391
+abalone,SVM,No Sampling,0.000,0.635,0.000
+abalone,SVM,SMOTE,0.349,0.838,0.905
+abalone,SVM,ADASYN,0.337,0.839,0.916
+abalone,SVM,Undersampling,0.340,0.812,0.826
+abalone,SVM,Oversampling,0.349,0.833,0.898
+abalone,SVM,Gamma,0.350,0.836,0.905
+abalone,KNN,No Sampling,0.252,0.714,0.210
+abalone,KNN,SMOTE,0.357,0.758,0.621
+abalone,KNN,ADASYN,0.353,0.750,0.632
+abalone,KNN,Undersampling,0.373,0.814,0.800
+abalone,KNN,Oversampling,0.339,0.710,0.476
+abalone,KNN,Gamma,0.354,0.758,0.591
+abalone_19,Logistic Regression,No Sampling,0.000,0.662,0.000
+abalone_19,Logistic Regression,SMOTE,0.047,0.812,0.724
+abalone_19,Logistic Regression,ADASYN,0.047,0.813,0.724
+abalone_19,Logistic Regression,Undersampling,0.022,0.707,0.752
+abalone_19,Logistic Regression,Oversampling,0.048,0.807,0.757
+abalone_19,Logistic Regression,Gamma,0.044,0.811,0.724
+abalone_19,Random Forest,No Sampling,0.000,0.656,0.000
+abalone_19,Random Forest,SMOTE,0.054,0.759,0.095
+abalone_19,Random Forest,ADASYN,0.050,0.781,0.095
+abalone_19,Random Forest,Undersampling,0.034,0.783,0.748
+abalone_19,Random Forest,Oversampling,0.050,0.636,0.033
+abalone_19,Random Forest,Gamma,0.044,0.759,0.033
+abalone_19,SVM,No Sampling,0.000,0.523,0.000
+abalone_19,SVM,SMOTE,0.044,0.812,0.724
+abalone_19,SVM,ADASYN,0.044,0.813,0.724
+abalone_19,SVM,Undersampling,0.024,0.714,0.848
+abalone_19,SVM,Oversampling,0.044,0.803,0.752
+abalone_19,SVM,Gamma,0.046,0.812,0.786
+abalone_19,KNN,No Sampling,0.000,0.489,0.000
+abalone_19,KNN,SMOTE,0.041,0.617,0.257
+abalone_19,KNN,ADASYN,0.042,0.616,0.257
+abalone_19,KNN,Undersampling,0.025,0.702,0.690
+abalone_19,KNN,Oversampling,0.000,0.489,0.000
+abalone_19,KNN,Gamma,0.013,0.492,0.029
+car_eval_4,Logistic Regression,No Sampling,0.800,0.998,0.708
+car_eval_4,Logistic Regression,SMOTE,0.801,0.998,1.000
+car_eval_4,Logistic Regression,ADASYN,0.801,0.998,1.000
+car_eval_4,Logistic Regression,Undersampling,0.432,0.996,1.000
+car_eval_4,Logistic Regression,Oversampling,0.801,0.998,1.000
+car_eval_4,Logistic Regression,Gamma,0.605,0.990,1.000
+car_eval_4,Random Forest,No Sampling,0.880,1.000,0.800
+car_eval_4,Random Forest,SMOTE,0.938,1.000,0.923
+car_eval_4,Random Forest,ADASYN,0.951,1.000,0.938
+car_eval_4,Random Forest,Undersampling,0.637,0.998,1.000
+car_eval_4,Random Forest,Oversampling,0.956,1.000,0.985
+car_eval_4,Random Forest,Gamma,0.954,1.000,0.954
+car_eval_4,SVM,No Sampling,0.799,0.997,0.815
+car_eval_4,SVM,SMOTE,0.818,0.997,1.000
+car_eval_4,SVM,ADASYN,0.818,0.997,1.000
+car_eval_4,SVM,Undersampling,0.695,0.996,1.000
+car_eval_4,SVM,Oversampling,0.818,0.997,1.000
+car_eval_4,SVM,Gamma,0.635,0.987,1.000
+car_eval_4,KNN,No Sampling,0.160,0.792,0.092
+car_eval_4,KNN,SMOTE,0.501,0.955,0.985
+car_eval_4,KNN,ADASYN,0.502,0.957,0.985
+car_eval_4,KNN,Undersampling,0.400,0.970,0.985
+car_eval_4,KNN,Oversampling,0.160,0.792,0.092
+car_eval_4,KNN,Gamma,0.677,0.978,0.923
+car_eval_34,Logistic Regression,No Sampling,0.855,0.998,0.777
+car_eval_34,Logistic Regression,SMOTE,0.835,0.998,1.000
+car_eval_34,Logistic Regression,ADASYN,0.827,0.998,1.000
+car_eval_34,Logistic Regression,Undersampling,0.638,0.997,1.000
+car_eval_34,Logistic Regression,Oversampling,0.827,0.998,1.000
+car_eval_34,Logistic Regression,Gamma,0.590,0.984,1.000
+car_eval_34,Random Forest,No Sampling,0.880,0.998,0.843
+car_eval_34,Random Forest,SMOTE,0.910,0.998,0.903
+car_eval_34,Random Forest,ADASYN,0.911,0.998,0.918
+car_eval_34,Random Forest,Undersampling,0.738,0.997,1.000
+car_eval_34,Random Forest,Oversampling,0.914,0.998,0.940
+car_eval_34,Random Forest,Gamma,0.889,0.997,0.889
+car_eval_34,SVM,No Sampling,0.871,0.997,0.851
+car_eval_34,SVM,SMOTE,0.913,0.997,1.000
+car_eval_34,SVM,ADASYN,0.913,0.997,1.000
+car_eval_34,SVM,Undersampling,0.678,0.996,1.000
+car_eval_34,SVM,Oversampling,0.913,0.996,1.000
+car_eval_34,SVM,Gamma,0.602,0.982,1.000
+car_eval_34,KNN,No Sampling,0.097,0.746,0.052
+car_eval_34,KNN,SMOTE,0.527,0.910,0.888
+car_eval_34,KNN,ADASYN,0.546,0.924,0.873
+car_eval_34,KNN,Undersampling,0.537,0.949,0.926
+car_eval_34,KNN,Oversampling,0.097,0.746,0.052
+car_eval_34,KNN,Gamma,0.571,0.910,0.806
+ecoli,Logistic Regression,No Sampling,0.000,0.944,0.000
+ecoli,Logistic Regression,SMOTE,0.578,0.944,0.886
+ecoli,Logistic Regression,ADASYN,0.522,0.940,0.886
+ecoli,Logistic Regression,Undersampling,0.464,0.925,0.943
+ecoli,Logistic Regression,Oversampling,0.563,0.940,0.886
+ecoli,Logistic Regression,Gamma,0.576,0.944,0.886
+ecoli,Random Forest,No Sampling,0.553,0.929,0.514
+ecoli,Random Forest,SMOTE,0.625,0.930,0.686
+ecoli,Random Forest,ADASYN,0.612,0.928,0.686
+ecoli,Random Forest,Undersampling,0.535,0.934,0.971
+ecoli,Random Forest,Oversampling,0.532,0.925,0.514
+ecoli,Random Forest,Gamma,0.585,0.928,0.629
+ecoli,SVM,No Sampling,0.000,0.947,0.000
+ecoli,SVM,SMOTE,0.577,0.941,0.886
+ecoli,SVM,ADASYN,0.496,0.926,0.886
+ecoli,SVM,Undersampling,0.482,0.924,0.943
+ecoli,SVM,Oversampling,0.541,0.932,0.886
+ecoli,SVM,Gamma,0.577,0.945,0.914
+ecoli,KNN,No Sampling,0.591,0.876,0.571
+ecoli,KNN,SMOTE,0.572,0.866,0.714
+ecoli,KNN,ADASYN,0.565,0.863,0.743
+ecoli,KNN,Undersampling,0.556,0.926,0.971
+ecoli,KNN,Oversampling,0.574,0.866,0.686
+ecoli,KNN,Gamma,0.535,0.858,0.714
+letter_img,Logistic Regression,No Sampling,0.627,0.984,0.490
+letter_img,Logistic Regression,SMOTE,0.549,0.988,0.965
+letter_img,Logistic Regression,ADASYN,0.462,0.983,0.954
+letter_img,Logistic Regression,Undersampling,0.475,0.985,0.974
+letter_img,Logistic Regression,Oversampling,0.538,0.988,0.966
+letter_img,Logistic Regression,Gamma,0.544,0.988,0.966
+letter_img,Random Forest,No Sampling,0.958,1.000,0.925
+letter_img,Random Forest,SMOTE,0.964,1.000,0.939
+letter_img,Random Forest,ADASYN,0.960,1.000,0.932
+letter_img,Random Forest,Undersampling,0.781,0.999,0.986
+letter_img,Random Forest,Oversampling,0.961,1.000,0.933
+letter_img,Random Forest,Gamma,0.960,1.000,0.931
+letter_img,SVM,No Sampling,0.747,0.982,0.627
+letter_img,SVM,SMOTE,0.558,0.987,0.967
+letter_img,SVM,ADASYN,0.455,0.982,0.955
+letter_img,SVM,Undersampling,0.496,0.986,0.975
+letter_img,SVM,Oversampling,0.547,0.987,0.967
+letter_img,SVM,Gamma,0.549,0.987,0.967
+letter_img,KNN,No Sampling,0.978,0.998,0.978
+letter_img,KNN,SMOTE,0.962,0.998,0.995
+letter_img,KNN,ADASYN,0.964,0.998,0.996
+letter_img,KNN,Undersampling,0.524,0.986,0.996
+letter_img,KNN,Oversampling,0.972,0.997,0.988
+letter_img,KNN,Gamma,0.960,0.997,0.993
+optical_digits,Logistic Regression,No Sampling,0.827,0.983,0.764
+optical_digits,Logistic Regression,SMOTE,0.789,0.984,0.915
+optical_digits,Logistic Regression,ADASYN,0.717,0.978,0.922
+optical_digits,Logistic Regression,Undersampling,0.742,0.981,0.939
+optical_digits,Logistic Regression,Oversampling,0.766,0.983,0.937
+optical_digits,Logistic Regression,Gamma,0.787,0.983,0.922
+optical_digits,Random Forest,No Sampling,0.884,0.999,0.792
+optical_digits,Random Forest,SMOTE,0.929,0.999,0.874
+optical_digits,Random Forest,ADASYN,0.908,0.999,0.841
+optical_digits,Random Forest,Undersampling,0.899,0.998,0.964
+optical_digits,Random Forest,Oversampling,0.925,0.999,0.865
+optical_digits,Random Forest,Gamma,0.928,0.999,0.870
+optical_digits,SVM,No Sampling,0.842,0.982,0.785
+optical_digits,SVM,SMOTE,0.792,0.983,0.919
+optical_digits,SVM,ADASYN,0.719,0.977,0.917
+optical_digits,SVM,Undersampling,0.737,0.981,0.944
+optical_digits,SVM,Oversampling,0.771,0.982,0.942
+optical_digits,SVM,Gamma,0.780,0.982,0.922
+optical_digits,KNN,No Sampling,0.979,0.992,0.964
+optical_digits,KNN,SMOTE,0.980,0.997,0.987
+optical_digits,KNN,ADASYN,0.978,0.996,0.986
+optical_digits,KNN,Undersampling,0.918,0.996,0.993
+optical_digits,KNN,Oversampling,0.983,0.992,0.980
+optical_digits,KNN,Gamma,0.963,0.996,0.989
+pen_digits,Logistic Regression,No Sampling,0.752,0.971,0.664
+pen_digits,Logistic Regression,SMOTE,0.722,0.977,0.928
+pen_digits,Logistic Regression,ADASYN,0.555,0.946,0.941
+pen_digits,Logistic Regression,Undersampling,0.638,0.966,0.918
+pen_digits,Logistic Regression,Oversampling,0.713,0.977,0.931
+pen_digits,Logistic Regression,Gamma,0.720,0.977,0.927
+pen_digits,Random Forest,No Sampling,0.980,1.000,0.963
+pen_digits,Random Forest,SMOTE,0.987,1.000,0.978
+pen_digits,Random Forest,ADASYN,0.983,1.000,0.972
+pen_digits,Random Forest,Undersampling,0.981,1.000,0.988
+pen_digits,Random Forest,Oversampling,0.987,1.000,0.977
+pen_digits,Random Forest,Gamma,0.988,1.000,0.979
+pen_digits,SVM,No Sampling,0.790,0.968,0.707
+pen_digits,SVM,SMOTE,0.726,0.977,0.932
+pen_digits,SVM,ADASYN,0.537,0.943,0.944
+pen_digits,SVM,Undersampling,0.684,0.973,0.934
+pen_digits,SVM,Oversampling,0.722,0.977,0.940
+pen_digits,SVM,Gamma,0.726,0.977,0.935
+pen_digits,KNN,No Sampling,0.993,0.997,0.991
+pen_digits,KNN,SMOTE,0.993,0.999,0.996
+pen_digits,KNN,ADASYN,0.993,0.999,0.996
+pen_digits,KNN,Undersampling,0.946,0.998,0.997
+pen_digits,KNN,Oversampling,0.992,0.997,0.995
+pen_digits,KNN,Gamma,0.989,0.997,0.995
+satimage,Logistic Regression,No Sampling,0.000,0.756,0.000
+satimage,Logistic Regression,SMOTE,0.295,0.760,0.856
+satimage,Logistic Regression,ADASYN,0.300,0.751,0.874
+satimage,Logistic Regression,Undersampling,0.292,0.746,0.894
+satimage,Logistic Regression,Oversampling,0.294,0.760,0.859
+satimage,Logistic Regression,Gamma,0.295,0.759,0.867
+satimage,Random Forest,No Sampling,0.636,0.960,0.513
+satimage,Random Forest,SMOTE,0.686,0.963,0.685
+satimage,Random Forest,ADASYN,0.687,0.964,0.700
+satimage,Random Forest,Undersampling,0.564,0.951,0.891
+satimage,Random Forest,Oversampling,0.688,0.964,0.626
+satimage,Random Forest,Gamma,0.679,0.962,0.680
+satimage,SVM,No Sampling,0.000,0.689,0.000
+satimage,SVM,SMOTE,0.295,0.760,0.941
+satimage,SVM,ADASYN,0.290,0.749,0.946
+satimage,SVM,Undersampling,0.287,0.751,0.954
+satimage,SVM,Oversampling,0.294,0.759,0.952
+satimage,SVM,Gamma,0.293,0.760,0.947
+satimage,KNN,No Sampling,0.693,0.918,0.692
+satimage,KNN,SMOTE,0.621,0.936,0.917
+satimage,KNN,ADASYN,0.612,0.936,0.943
+satimage,KNN,Undersampling,0.530,0.928,0.926
+satimage,KNN,Oversampling,0.670,0.913,0.837
+satimage,KNN,Gamma,0.586,0.924,0.907
+sick_euthyroid,Logistic Regression,No Sampling,0.179,0.923,0.102
+sick_euthyroid,Logistic Regression,SMOTE,0.552,0.942,0.918
+sick_euthyroid,Logistic Regression,ADASYN,0.539,0.944,0.918
+sick_euthyroid,Logistic Regression,Undersampling,0.412,0.909,0.905
+sick_euthyroid,Logistic Regression,Oversampling,0.543,0.945,0.925
+sick_euthyroid,Logistic Regression,Gamma,0.400,0.908,0.915
+sick_euthyroid,Random Forest,No Sampling,0.864,0.984,0.836
+sick_euthyroid,Random Forest,SMOTE,0.863,0.983,0.870
+sick_euthyroid,Random Forest,ADASYN,0.858,0.986,0.864
+sick_euthyroid,Random Forest,Undersampling,0.799,0.983,0.925
+sick_euthyroid,Random Forest,Oversampling,0.873,0.985,0.877
+sick_euthyroid,Random Forest,Gamma,0.798,0.974,0.813
+sick_euthyroid,SVM,No Sampling,0.075,0.947,0.044
+sick_euthyroid,SVM,SMOTE,0.600,0.952,0.925
+sick_euthyroid,SVM,ADASYN,0.584,0.952,0.928
+sick_euthyroid,SVM,Undersampling,0.458,0.939,0.935
+sick_euthyroid,SVM,Oversampling,0.578,0.953,0.928
+sick_euthyroid,SVM,Gamma,0.429,0.925,0.915
+sick_euthyroid,KNN,No Sampling,0.547,0.856,0.468
+sick_euthyroid,KNN,SMOTE,0.565,0.864,0.666
+sick_euthyroid,KNN,ADASYN,0.560,0.862,0.649
+sick_euthyroid,KNN,Undersampling,0.424,0.882,0.853
+sick_euthyroid,KNN,Oversampling,0.581,0.856,0.693
+sick_euthyroid,KNN,Gamma,0.471,0.823,0.587
+solar_flare_m0,Logistic Regression,No Sampling,0.067,0.793,0.044
+solar_flare_m0,Logistic Regression,SMOTE,0.174,0.770,0.547
+solar_flare_m0,Logistic Regression,ADASYN,0.184,0.770,0.590
+solar_flare_m0,Logistic Regression,Undersampling,0.183,0.767,0.662
+solar_flare_m0,Logistic Regression,Oversampling,0.179,0.760,0.560
+solar_flare_m0,Logistic Regression,Gamma,0.205,0.774,0.646
+solar_flare_m0,Random Forest,No Sampling,0.082,0.771,0.058
+solar_flare_m0,Random Forest,SMOTE,0.137,0.766,0.132
+solar_flare_m0,Random Forest,ADASYN,0.121,0.758,0.132
+solar_flare_m0,Random Forest,Undersampling,0.195,0.776,0.751
+solar_flare_m0,Random Forest,Oversampling,0.210,0.755,0.365
+solar_flare_m0,Random Forest,Gamma,0.211,0.751,0.364
+solar_flare_m0,SVM,No Sampling,0.000,0.568,0.000
+solar_flare_m0,SVM,SMOTE,0.168,0.750,0.576
+solar_flare_m0,SVM,ADASYN,0.177,0.749,0.620
+solar_flare_m0,SVM,Undersampling,0.186,0.746,0.662
+solar_flare_m0,SVM,Oversampling,0.171,0.743,0.558
+solar_flare_m0,SVM,Gamma,0.163,0.752,0.589
+solar_flare_m0,KNN,No Sampling,0.126,0.629,0.088
+solar_flare_m0,KNN,SMOTE,0.218,0.671,0.401
+solar_flare_m0,KNN,ADASYN,0.205,0.663,0.386
+solar_flare_m0,KNN,Undersampling,0.190,0.728,0.471
+solar_flare_m0,KNN,Oversampling,0.173,0.630,0.147
+solar_flare_m0,KNN,Gamma,0.182,0.629,0.190
+thyroid_sick,Logistic Regression,No Sampling,0.154,0.920,0.087
+thyroid_sick,Logistic Regression,SMOTE,0.451,0.938,0.883
+thyroid_sick,Logistic Regression,ADASYN,0.449,0.939,0.879
+thyroid_sick,Logistic Regression,Undersampling,0.327,0.902,0.853
+thyroid_sick,Logistic Regression,Oversampling,0.446,0.942,0.879
+thyroid_sick,Logistic Regression,Gamma,0.327,0.917,0.914
+thyroid_sick,Random Forest,No Sampling,0.838,0.994,0.766
+thyroid_sick,Random Forest,SMOTE,0.868,0.996,0.840
+thyroid_sick,Random Forest,ADASYN,0.875,0.995,0.844
+thyroid_sick,Random Forest,Undersampling,0.710,0.990,0.948
+thyroid_sick,Random Forest,Oversampling,0.875,0.997,0.844
+thyroid_sick,Random Forest,Gamma,0.813,0.986,0.762
+thyroid_sick,SVM,No Sampling,0.000,0.949,0.000
+thyroid_sick,SVM,SMOTE,0.486,0.949,0.874
+thyroid_sick,SVM,ADASYN,0.481,0.949,0.861
+thyroid_sick,SVM,Undersampling,0.342,0.917,0.879
+thyroid_sick,SVM,Oversampling,0.483,0.950,0.874
+thyroid_sick,SVM,Gamma,0.331,0.920,0.918
+thyroid_sick,KNN,No Sampling,0.500,0.822,0.381
+thyroid_sick,KNN,SMOTE,0.529,0.838,0.602
+thyroid_sick,KNN,ADASYN,0.516,0.836,0.606
+thyroid_sick,KNN,Undersampling,0.415,0.903,0.866
+thyroid_sick,KNN,Oversampling,0.522,0.819,0.580
+thyroid_sick,KNN,Gamma,0.430,0.810,0.459
+us_crime,Logistic Regression,No Sampling,0.494,0.924,0.393
+us_crime,Logistic Regression,SMOTE,0.480,0.915,0.780
+us_crime,Logistic Regression,ADASYN,0.459,0.912,0.793
+us_crime,Logistic Regression,Undersampling,0.455,0.920,0.873
+us_crime,Logistic Regression,Oversampling,0.479,0.915,0.800
+us_crime,Logistic Regression,Gamma,0.460,0.920,0.820
+us_crime,Random Forest,No Sampling,0.464,0.912,0.360
+us_crime,Random Forest,SMOTE,0.484,0.916,0.493
+us_crime,Random Forest,ADASYN,0.489,0.908,0.527
+us_crime,Random Forest,Undersampling,0.447,0.914,0.867
+us_crime,Random Forest,Oversampling,0.458,0.917,0.380
+us_crime,Random Forest,Gamma,0.498,0.918,0.567
+us_crime,SVM,No Sampling,0.510,0.917,0.393
+us_crime,SVM,SMOTE,0.471,0.910,0.767
+us_crime,SVM,ADASYN,0.450,0.904,0.780
+us_crime,SVM,Undersampling,0.438,0.915,0.860
+us_crime,SVM,Oversampling,0.445,0.906,0.760
+us_crime,SVM,Gamma,0.456,0.915,0.827
+us_crime,KNN,No Sampling,0.416,0.759,0.327
+us_crime,KNN,SMOTE,0.440,0.835,0.713
+us_crime,KNN,ADASYN,0.430,0.832,0.707
+us_crime,KNN,Undersampling,0.405,0.859,0.820
+us_crime,KNN,Oversampling,0.423,0.755,0.473
+us_crime,KNN,Gamma,0.389,0.824,0.700
+wine_quality,Logistic Regression,No Sampling,0.021,0.772,0.011
+wine_quality,Logistic Regression,SMOTE,0.174,0.774,0.644
+wine_quality,Logistic Regression,ADASYN,0.175,0.776,0.661
+wine_quality,Logistic Regression,Undersampling,0.162,0.760,0.628
+wine_quality,Logistic Regression,Oversampling,0.168,0.771,0.661
+wine_quality,Logistic Regression,Gamma,0.162,0.777,0.726
+wine_quality,Random Forest,No Sampling,0.268,0.882,0.164
+wine_quality,Random Forest,SMOTE,0.421,0.880,0.437
+wine_quality,Random Forest,ADASYN,0.400,0.877,0.410
+wine_quality,Random Forest,Undersampling,0.224,0.851,0.781
+wine_quality,Random Forest,Oversampling,0.336,0.898,0.224
+wine_quality,Random Forest,Gamma,0.386,0.877,0.344
+wine_quality,SVM,No Sampling,0.000,0.626,0.000
+wine_quality,SVM,SMOTE,0.180,0.779,0.644
+wine_quality,SVM,ADASYN,0.184,0.783,0.666
+wine_quality,SVM,Undersampling,0.178,0.762,0.573
+wine_quality,SVM,Oversampling,0.182,0.775,0.650
+wine_quality,SVM,Gamma,0.177,0.788,0.726
+wine_quality,KNN,No Sampling,0.133,0.687,0.087
+wine_quality,KNN,SMOTE,0.242,0.733,0.534
+wine_quality,KNN,ADASYN,0.231,0.730,0.523
+wine_quality,KNN,Undersampling,0.134,0.700,0.600
+wine_quality,KNN,Oversampling,0.322,0.691,0.387
+wine_quality,KNN,Gamma,0.211,0.705,0.474
+yeast_me2,Logistic Regression,No Sampling,0.000,0.886,0.000
+yeast_me2,Logistic Regression,SMOTE,0.263,0.882,0.727
+yeast_me2,Logistic Regression,ADASYN,0.259,0.881,0.765
+yeast_me2,Logistic Regression,Undersampling,0.256,0.892,0.862
+yeast_me2,Logistic Regression,Oversampling,0.266,0.881,0.767
+yeast_me2,Logistic Regression,Gamma,0.259,0.881,0.747
+yeast_me2,Random Forest,No Sampling,0.223,0.922,0.136
+yeast_me2,Random Forest,SMOTE,0.425,0.933,0.471
+yeast_me2,Random Forest,ADASYN,0.460,0.932,0.511
+yeast_me2,Random Forest,Undersampling,0.274,0.909,0.920
+yeast_me2,Random Forest,Oversampling,0.364,0.937,0.256
+yeast_me2,Random Forest,Gamma,0.391,0.926,0.415
+yeast_me2,SVM,No Sampling,0.000,0.803,0.000
+yeast_me2,SVM,SMOTE,0.276,0.879,0.727
+yeast_me2,SVM,ADASYN,0.280,0.875,0.785
+yeast_me2,SVM,Undersampling,0.268,0.886,0.862
+yeast_me2,SVM,Oversampling,0.289,0.875,0.787
+yeast_me2,SVM,Gamma,0.279,0.877,0.785
+yeast_me2,KNN,No Sampling,0.360,0.779,0.293
+yeast_me2,KNN,SMOTE,0.357,0.842,0.685
+yeast_me2,KNN,ADASYN,0.355,0.848,0.705
+yeast_me2,KNN,Undersampling,0.217,0.880,0.824
+yeast_me2,KNN,Oversampling,0.401,0.780,0.547
+yeast_me2,KNN,Gamma,0.362,0.815,0.665

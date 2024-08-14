@@ -1,4 +1,3 @@
-# Kfold_crossValidation.py
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 from imb_validationIndex import minority_class_accuracy
@@ -7,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 
-def cross_validation(data, labels, model_func, k=5, balance_function=None, **kwargs):
+def out_of_Scaler_cross_validation(data, labels, model_func, k=5, balance_function=None, **kwargs):
     kf = StratifiedKFold(n_splits=k, shuffle=True, random_state=42)
     f1_scores = []
     aucs = []
@@ -22,17 +21,13 @@ def cross_validation(data, labels, model_func, k=5, balance_function=None, **kwa
         # 將標籤轉換為 Pandas Series
         labels = pd.Series(labels)
         # 根據分割的索引獲取訓練集和測試集的標籤
-        y_train, y_test = labels.iloc[train_index].reset_index(drop=True), labels.iloc[test_index].reset_index(
-            drop=True)
+        y_train, y_test = labels.iloc[train_index].reset_index(drop=True), labels.iloc[test_index].reset_index(drop=True)
 
         # 如果提供了平衡函數，則對訓練集進行平衡處理
         if balance_function is not None:
             X_train, y_train = balance_function(X_train, y_train)
 
-        # 進行縮放
-        scaler = MinMaxScaler()
-        X_train = pd.DataFrame(scaler.fit_transform(X_train), columns=X_train.columns)
-        X_test = pd.DataFrame(scaler.transform(X_test), columns=X_test.columns)
+        # 移除了MinMaxScaler相關代碼
 
         # 使用提供的模型函數訓練模型
         model = model_func(X_train, y_train, **kwargs)
