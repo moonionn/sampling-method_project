@@ -13,8 +13,3 @@ Dataset
 ---
 #### 流程：
 先將資料清洗移除不需要的資料，接著進行採樣、縮放、最後預測，並且採5折交叉驗證，在每一次的迴圈中，只會對訓練集進行採樣，以確保測試集不被污染。
-![截圖 2024-10-03 凌晨3 17 09](https://github.com/user-attachments/assets/2d4a5f46-9f35-4075-ae8a-1bbba52bd5b1) 
-
-<div align="center">
-	<img src="[./raw-docs/img/editor.png](https://github.com/user-attachments/assets/2d4a5f46-9f35-4075-ae8a-1bbba52bd5b1)" alt="Editor" width="500">
-</div>
