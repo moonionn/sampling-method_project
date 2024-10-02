@@ -1,5 +1,4 @@
 ## 提升不平衡資料集之分類效能－應用不同採樣技術
----
 探討不同採樣技術對機器學習模型在不平衡資料集上分類效能的影響，比較Random Oversampling、Random Undersampling、SMOTE、ADASYN和伽瑪分佈採樣 (gamma distribution sampling) 等方法，並結合Logistic Regression、Random Forest、SVM 和 KNN 等模型進行實驗。並使用 Minority Recall 作為新的評估指標，以更準確反映模型對少數類別的識別能力。
 
 本專案有兩大主要探討重點
@@ -9,3 +8,7 @@
 Dataset
 ---
 [imblearn.dataset](https://imbalanced-learn.org/stable/datasets/index.html) 中截取其中14項資料集
+
+不同採樣技術對機器學習模型在不平衡資料集上分類效能的影響
+---
+![截圖 2024-10-03 凌晨3 17 09](https://github.com/user-attachments/assets/2d4a5f46-9f35-4075-ae8a-1bbba52bd5b1)
