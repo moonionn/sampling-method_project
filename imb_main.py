@@ -12,22 +12,22 @@ RANDOM_STATE = 42
 
 # --- 資料集 ---
 datasets = {
-    'wine': ('dataset/new_winequality.csv', 'quality'),
-    'abalone': ('dataset/abalone.csv', 'target'),
-    'abalone_19': ('dataset/abalone_19.csv', 'target'),
+    # 'wine': ('dataset/new_winequality.csv', 'quality'),
+    # 'abalone': ('dataset/abalone.csv', 'target'),
+    # 'abalone_19': ('dataset/abalone_19.csv', 'target'),
     'car_eval_4': ('dataset/car_eval_4.csv', 'target'),
     'car_eval_34': ('dataset/car_eval_34.csv', 'target'),
-    'ecoli': ('dataset/ecoli.csv', 'target'),
-    'letter_img': ('dataset/letter_img.csv', 'target'),
-    'optical_digits': ('dataset/optical_digits.csv', 'target'),
-    'pen_digits': ('dataset/pen_digits.csv', 'target'),
-    'satimage': ('dataset/satimage.csv', 'target'),
-    'sick_euthyroid': ('dataset/sick_euthyroid.csv', 'target'),
-    'solar_flare_m0': ('dataset/solar_flare_m0.csv', 'target'),
-    'thyroid_sick': ('dataset/thyroid_sick.csv', 'target'),
-    'us_crime': ('dataset/us_crime.csv', 'target'),
-    'wine_quality': ('dataset/wine_quality.csv', 'target'),
-    'yeast_me2': ('dataset/yeast_me2.csv', 'target')
+    # 'ecoli': ('dataset/ecoli.csv', 'target'),
+    # 'letter_img': ('dataset/letter_img.csv', 'target'),
+    # 'optical_digits': ('dataset/optical_digits.csv', 'target'),
+    # 'pen_digits': ('dataset/pen_digits.csv', 'target'),
+    # 'satimage': ('dataset/satimage.csv', 'target'),
+    # 'sick_euthyroid': ('dataset/sick_euthyroid.csv', 'target'),
+    # 'solar_flare_m0': ('dataset/solar_flare_m0.csv', 'target'),
+    # 'thyroid_sick': ('dataset/thyroid_sick.csv', 'target'),
+    # 'us_crime': ('dataset/us_crime.csv', 'target'),
+    # 'wine_quality': ('dataset/wine_quality.csv', 'target'),
+    # 'yeast_me2': ('dataset/yeast_me2.csv', 'target')
 }
 
 # --- 採樣方法和模型 ---
@@ -35,8 +35,8 @@ sampling_methods = {
     'No Sampling': no_sampling,
     'SMOTE': smote_balance,
     'ADASYN': adasyn_balance,
-    'Undersampling': undersample_balance,
-    'Oversampling': oversample_balance,
+    'RUS': undersample_balance,
+    'ROS': oversample_balance,
     'Gamma': gamma_sampling
 }
 
@@ -77,8 +77,8 @@ if __name__ == '__main__':
     # 將結果轉換為 DataFrame
     df = pd.DataFrame.from_dict(results, orient='index', columns=['F1', 'AUC', 'Mean Minority Recall'])
 
-    # 將 DataFrame 寫入 CSV 文件
-    df.to_csv('final_result.csv')
+    # 將 DataFrame 寫入 CSV 文件 # change
+    df.to_csv('output_0815/car_eval_results.csv')
 
 # # --- 循環遍歷資料集、採樣方法和模型 ---
 # for dataset_name, (file_path, target_column) in datasets.items():

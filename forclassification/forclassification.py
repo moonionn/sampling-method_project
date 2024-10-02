@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取CSV数据
-df = pd.read_csv('../formatted_results.csv')
+df = pd.read_csv('../output_0815/car_eval_formatted_results.csv')
 
 # 模型和指标列表
 models = ['Logistic Regression', 'Random Forest', 'SVM', 'KNN']
@@ -42,4 +42,4 @@ for model in models:
         print("\n")
 
         # 保存到CSV
-        pivot_df.to_csv(f'../forclassification/{model}_{metric}_data.csv', index=True)
+        pivot_df.to_csv(f'../output_0815/classification/{model}_{metric}_data.csv', index=True)

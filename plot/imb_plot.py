@@ -4,7 +4,7 @@ import seaborn as sns
 from math import pi
 
 # 读取CSV文件
-data = pd.read_csv('../formatted_results.csv')
+data = pd.read_csv('../output_0815_ratio/ratio_formatted_results.csv')
 
 # 检查DataFrame的列名
 print(data.columns)
@@ -43,7 +43,7 @@ for method in avg_values.index:
 # 添加标题和图例
 plt.title('Average Performance of Different Sampling Methods')
 plt.legend(loc='lower right')
-plt.savefig('radar_chart.png')
+plt.savefig('../output_0815_ratio/ratio_radar_chart.png')
 plt.show()
 
 # 设置画布大小
@@ -77,6 +77,6 @@ plt.legend(title='Model')
 plt.xticks(rotation=45)
 
 plt.tight_layout()
-plt.savefig('line_plots.png')
+plt.savefig('../output_0815_ratio/ratio_eval_line_plots.png')
 plt.show()
 

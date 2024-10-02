@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 讀取原始數據
-final_result = pd.read_csv('final_result.csv')
+final_result = pd.read_csv('output_0815/car_eval_results.csv')
 
 # 定義一個函數來四捨五入到小數點後三位
 def round_to_three(x):
@@ -25,4 +25,4 @@ final_result = final_result.drop(first_column, axis=1)
 final_result = final_result[['Dataset', 'Model', 'Sampling', 'F1', 'AUC', 'Mean Minority Recall']]
 
 # 保存結果
-final_result.to_csv('formatted_results.csv', index=False)
+final_result.to_csv('output_0815/car_eval_formatted_results.csv', index=False)
